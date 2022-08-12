@@ -1,0 +1,16 @@
+@Library('test_share_library') _
+
+def map = [:]
+
+    // 需要修改此处，定义项目名称
+    map.put('SERVICE_NAME','t-eryajf-blog.eryajf.net')
+    // 定义项目git地址
+    map.put('GIT_URL','http://121.36.225.44/root/mypythonproject.git')
+    // 定义项目编译命令
+    map.put('BUILD_COMMAND','echo a')
+    // 定义git认证
+    map.put('GITLAB_AUTH_TOKEN','auth-gitlab')
+    map.put('GIT_TOKEN','git_token')
+    
+
+mypiplinetemplate(map)

@@ -1,0 +1,16 @@
+@Library('sharelibraries') _
+
+def demo = [:]
+
+    // 需要修改此处，定义项目名称
+    //map.put('SERVICE_NAME','t-eryajf-blog.eryajf.net')
+    // 定义项目git地址
+    demo.put('GIT_URL','http://121.36.225.44/root/mypythonproject.git')
+    // 定义项目编译命令
+    demo.put('BUILD_COMMAND','echo a')
+    // 定义git认证
+    demo.put('GITLAB_AUTH_TOKEN','auth-gitlab')
+    demo.put('GIT_TOKEN','git_token')
+    
+
+gaojenkins(demo)
