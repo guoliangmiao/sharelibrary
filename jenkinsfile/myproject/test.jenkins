@@ -1,4 +1,4 @@
-@Library('test_share_library') _
+@Library('sharelibrary') _
 
 def map = [:]
 
